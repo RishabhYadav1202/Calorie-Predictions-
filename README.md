@@ -86,7 +86,7 @@ param_grid = {
 | Random Forest       | 0.9865     |
 | XGBoost (Tuned)     | **0.9993** ✅|
 
- https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/Model%20comparison.png?raw=true
+ ![Model Comparison](https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/Model%20comparison.png?raw=true)
 
 ---
 
@@ -94,10 +94,10 @@ param_grid = {
 
 - 📊 **Actual vs. Predicted Calories** (Scatter Plot)
   
-https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/actual%20vs%20prdicted.png?raw=true
+ ![Actual vs Predicted](https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/actual%20vs%20prdicted.png?raw=true)
   
 - 🔍 **XGBoost Feature Importance Plot**
-https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/feature%20importance.png?raw=true
+ ![Feature Importance](https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/feature%20importance.png?raw=true)
 ---
 
 ## 📌 Key Takeaways
