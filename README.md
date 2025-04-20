@@ -97,7 +97,11 @@ param_grid = {
  ![Actual vs Predicted](https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/actual%20vs%20prdicted.png?raw=true)
   
 - 🔍 **XGBoost Feature Importance Plot**
+
+  
  ![Feature Importance](https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/feature%20importance.png?raw=true)
+
+ 
 ---
 
 ## 📌 Key Takeaways
