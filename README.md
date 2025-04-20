@@ -84,17 +84,20 @@ param_grid = {
 |---------------------|------------|
 | Linear Regression   | 0.9664     |
 | Random Forest       | 0.9865     |
-| XGBoost (Tuned)     | **0.9993** ✅
+| XGBoost (Tuned)     | **0.9993** ✅|
+
+ https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/Model%20comparison.png?raw=true
 
 ---
 
 ## 📈 Visualization
 
 - 📊 **Actual vs. Predicted Calories** (Scatter Plot)
-
+  
+https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/actual%20vs%20prdicted.png?raw=true
   
 - 🔍 **XGBoost Feature Importance Plot**
-
+https://github.com/RishabhYadav1202/Calorie-Predictions-/blob/master/Images/feature%20importance.png?raw=true
 ---
 
 ## 📌 Key Takeaways
