@@ -54,15 +54,19 @@ After merging, the final dataset has the following features:
 
 ## ⚙️ Model: XGBoost Regressor
 
-### Hyperparameter Tuning:
+# 🔧 Hyperparameter Tuning
+
 Performed using `GridSearchCV` with the following parameter grid:
 
 ```python
 param_grid = {
     'n_estimators': [100, 200],
     'max_depth': [3, 5, 7],
-    'learning_rate': [0.05, 0.1, 0.2]}
+    'learning_rate': [0.05, 0.1, 0.2]
+}
+```
 
+---
 
 ## 🧠 Model Evaluation
 
@@ -74,21 +78,21 @@ param_grid = {
 
 ---
 
-### ✅ Benchmark Comparison
+## ✅ Benchmark Comparison
 
 | Model               | R² Score   |
 |---------------------|------------|
 | Linear Regression   | 0.9664     |
 | Random Forest       | 0.9865     |
-| XGBoost (Tuned)     | 0.9993 ✅  |
- 
+| XGBoost (Tuned)     | **0.9993** ✅
 
 ---
 
-### 📈 Visualization
+## 📈 Visualization
 
 - 📊 **Actual vs. Predicted Calories** (Scatter Plot)
-     
+
+  
 - 🔍 **XGBoost Feature Importance Plot**
 
 ---
@@ -98,13 +102,14 @@ param_grid = {
 - Physiological features like **Heart Rate**, **Body Temperature**, and **Duration** are the most influential in calorie burn.
 - **XGBoost with tuned hyperparameters** delivers exceptional performance on this dataset.
 - Thorough **data cleaning and outlier handling** significantly improved model accuracy.
-- Achieved a **near-perfect prediction** with R² ≈ **0.9993ss** on unseen test data.
+- Achieved a **near-perfect prediction** with R² ≈ **0.9993** on unseen test data.
 
 ---
 
 ## ⚠ Overfitting & Generalization
 
 Despite the high R² score:
+
 - ✅ **Overfitting was carefully addressed** by using:
   - 80/20 **train-test split**
   - `GridSearchCV` for robust internal cross-validation
@@ -114,12 +119,11 @@ Despite the high R² score:
 
 ## 💡 Future Improvements
 
-- 🔍 Integrate **SHAP values** for deeper model interpretability
-- 🖥 Build a **Streamlit or Flask app** to allow users to enter their own data
-- 💾 Save/load models using `joblib` or `pickle` for easy deployment
+- 🔍 Integrate **SHAP values** for deeper model interpretability  
+- 🖥 Build a **Streamlit or Flask app** to allow users to enter their own data  
+- 💾 Save/load models using `joblib` or `pickle` for easy deployment  
 - 🚀 Deploy the model via **REST API** or **web interface**
 
----
 
 
 
